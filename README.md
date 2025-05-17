@@ -11,12 +11,20 @@ The chatbot allows users to manage a personal to-do list by sending commands in 
 *   **Add Tasks:** Users can add new tasks to their list.
     *   `/add <task description>`: Adds a task directly.
     *   `/add`: Prompts the user to enter the task description.
+
+    Example of adding a task:
+    ![Adding a task example](screenshots/add_task_example.png)
+
 *   **View Tasks:** Users can view their current list of tasks with their status (done/pending).
     *   `/view`
 *   **Mark Tasks as Done:** Users can mark existing tasks as completed.
     *   `/done`: Prompts the user to select a task number to mark as done.
 *   **Delete Tasks:** Users can remove tasks from their list.
     *   `/delete`: Prompts the user to select a task number to delete.
+
+    Example of viewing, marking a task as done, and viewing again:
+    ![Task lifecycle example](screenshots/task_lifecycle_example.png)
+
 *   **Help:** Provides a list of available commands.
     *   `/help`
 *   **Conversation State Management:** The chatbot remembers the context of multi-step operations (e.g., waiting for a task number after `/delete`).
